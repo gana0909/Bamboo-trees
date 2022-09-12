@@ -1,0 +1,47 @@
+/* @font-face {
+    font-family: engagement , librefranklin ;
+    src: url(Fonts/OFL.txt);
+} */
+.container-lg{
+    padding-top: 23px;
+}
+.container-lg img{
+    width: 150px;
+    height: 150px;
+    /* margin-left: 123px; */
+    /* margin-top: 23px; */
+}
+.container-lg p{
+    height: 37px;
+    width: 199px;
+    /* left: 190px;
+    top: 129px; */
+    font-family: "Static", engagement-regular;
+    font-size: 30px;
+}
+.d-flex{
+    height: 40px;
+    width: 480px;
+    margin-top: 50px;
+}
+.me-2{
+    background-color: #D9D9D9;
+    border: 0.5px solid #1E68CB;
+    border-radius: 0px;
+    height: 35px;
+    width: 280px;
+    font-size: small;
+}
+.btn-outline-success{
+    height: 35px;
+    width: 180px;
+    background-color: #1E68CB;
+    color: white;
+    border-radius: 0px;
+    font-size: small;
+}
+.col-sm-10{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
