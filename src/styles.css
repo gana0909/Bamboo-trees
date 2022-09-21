@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Static";
+    src: local("Static"), url(./assets/fonts/static/LibreFranklin-Black.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Acme";
+    src: local("Acme"), url(./assets/fonts/Acme/Acme-Regular.ttf);
+}
+@font-face {
+    font-family: "Convergence";
+    src: local("Convergence"), url(./assets/fonts/Convergence/Convergence-Regular.ttf);
+}
+@font-face {
+    font-family: "Copperplate";
+    src: local("Copperplate"), url(./assets/fonts/Copperplate/CopperplateGothicBold.ttf);
+    src: local("Copperplate"), url(./assets/fonts/Copperplate/COPRGTB.TTF);
+}
+@font-face {
+    font-family: "Engagement";
+    src: local("Engagement"), url(./assets/fonts/Engagement/Engagement-Regular.ttf);
+}
+@font-face {
+    font-family: "ENGR";
+    src: local("ENGR"), url(./assets/fonts/ENGR/ENGR.ttf);
+}
+@font-face {
+    font-family: "Franklin";
+    /* src: local("Franklin"), url(./assets/fonts/Franklin/Franklin\ Gothic\ Demi\ Cond\ Regular.ttf); */
+    src: local("Franklin"), url(./assets/fonts/Franklin/FRADMCN.ttf);
+}

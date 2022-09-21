@@ -1,0 +1,88 @@
+.imgs{
+    height: 740px;
+    /* padding-top: 270px; */
+}
+.box{
+    width: 100%;
+    height: 207px;
+    background:#F0F0F0;
+    position: absolute;
+}
+.home{
+    height: 200px;
+    /* background: #000; */
+    position: relative;
+}
+.snow{
+    height: 370px;
+    background: #1E68CB;
+}
+.simage{
+    padding: 0px !important ;
+}
+.zoo{
+    padding: 0px !important ;
+}
+.line{
+    height: 100px;
+    padding-top: 50px;
+}
+.product{
+    padding: 0px;
+    position: relative;
+}
+.row-cols-4{
+    padding: 10px;
+}
+.bg{
+    margin-bottom: 55px;
+}
+.bg::before {
+    width: 100%;
+    margin-bottom: 55px;
+    background-image: url(/src/assets/images/dlf.pt-bamboo-png-118526.png) ;
+    opacity: 0.5;
+    /* position: absolute; */
+    position: inherit;
+}
+.buy{
+    height: 343px;
+    width: 215px;
+    /* background: rgb(162, 162, 209); */
+    margin: 35px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxx{
+    height: 215px;
+    width: 215px;
+}
+.boxx img{
+    height: 215px;
+    width: 215px;    
+}
+.ntag{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Franklin", FRADMCN;
+}
+.button {
+    height: 40px;
+    width: 200px;
+    border-radius: 45px;
+    margin-bottom: 10px;
+    background-color: #1E68CB;
+    border: none;
+    color: white;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    font-family: "Franklin", FRADMCN;
+  }

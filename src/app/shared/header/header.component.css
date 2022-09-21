@@ -1,22 +1,22 @@
-/* @font-face {
-    font-family: engagement , librefranklin ;
-    src: url(Fonts/OFL.txt);
-} */
+.header{
+    overflow: hidden;
+    /* background-color: #333; */
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+}
 .container-lg{
     padding-top: 23px;
+    /* position: fixed; */
 }
 .container-lg img{
     width: 150px;
     height: 150px;
-    /* margin-left: 123px; */
-    /* margin-top: 23px; */
 }
-.container-lg p{
+.col-sm-6 p{
     height: 37px;
     width: 199px;
-    /* left: 190px;
-    top: 129px; */
-    font-family: "Static", engagement-regular;
+    font-family: "Engagement", engagement-regular;
     font-size: 30px;
 }
 .d-flex{
@@ -44,4 +44,39 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+.nav-bar{
+    height: 100px;
+    width: 100%;
+    background: #F0F0F0;
+}
+.container-sm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {  
+    list-style-type: none;  
+    font-weight: bold;  
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    /* color: #1E68CB; */
+    padding: 0px;
+} 
+.header a:hover {
+    background: #ddd;
+    color: black;
+}
+.contact{
+    font-weight: bold;  
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Acme", acme-regular;
+    color: #1E68CB;
 }

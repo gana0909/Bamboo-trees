@@ -1,0 +1,38 @@
+.container-lg{
+    height: 313px;
+    background: white;
+    color: #000;
+    margin-top: 10px;
+}
+.col-lg-2{
+    width: 150px;
+    height: 180px;
+    padding-top: 30px;
+}
+.col-lg-2 img{
+    width: 150px;
+    height: 150px;
+}
+.container-lg p{
+    height: 37px;
+    width: 199px;
+    font-family: "Engagement", engagement-regular;
+    font-size: 30px;
+}
+.row{
+    justify-content: space-around;
+}
+.justify-content-md-center{
+    display: flex;
+    align-items: flex-end;
+}
+.cont{
+    color: #000;
+    height: 120px;
+    width: 500px;
+}
+.cont{
+    /* font-family: "Static", acme-regular; */
+    font-size: 30px;
+    margin-top: 50px;
+}
